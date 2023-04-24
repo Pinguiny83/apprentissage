@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pinguiny</title>
+    <link href="style.css" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <header>
+        <a href="accueil.html" class="logo accueil" > Accueil </a>
+    </header>
+    <body>
+
+        <form method="get" action="">
+            
+            <fieldset>
+                <legend class="legend-un">Choisis ton camp</legend>
+             <label for="Pseudo" >Pseudo:*</label>
+                <input type="text" name="Pseudo" id="Pseuso" required>
+            <label for="email" >Email:*</label>
+                <input class="mail" type="text" name="email" id="email" placeholder="xxx@gmail.com" required>
+        
+                  <p>
+                      quel race choisis-tu?<br>
+                      <input type="radio" name="race" value="humain" id="humain"> <label for="humain">Humain</label><br>
+                      <input type="radio" name="race" value="extraterrestre" id="extraterrestre"> <label for="extraterrestre">extraterrestre</label><br>
+                      <input type="radio" name="race" value="bête" id="bête"> <label for="bête">bête</label><br>
+                      
+                    </p>  
+
+            <label for="class" >Choisis ta classe:</label>
+                <select  name="class" id="class">
+                    <option value="">choisis ta classe</option>
+                    <option value="singe">Singe</option>
+                    <option value="roux">Roux</option>
+                    <option value="casquetter">casquetter</option>
+                    <option value="pinguiny normaux">Pinguiny normaux</option>
+                </select>
+            </fieldset>
+            <fieldset>
+
+                 <label for="histoire" >Histoire du perso:</label>
+                    <textarea name="histoire" id="histoire" rows="10"></textarea>
+                    <input  class="bouton" type="submit" value="Envoyer">
+            </fieldset>
+    
+</form>
+
+
+</body>
+</html>
